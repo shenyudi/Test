@@ -25,11 +25,13 @@ public class Fragment0 extends FragmentActivity {
         bt_baby= (Button) findViewById(R.id.bt_fm_1);
         bt_xiaowang= (Button) findViewById(R.id.bt_fm_4);
         bt_mine = (Button) findViewById(R.id.bt_fm_5);
+
         FragmentManager fm1 = getFragmentManager();
         FragmentTransaction ts = fm1.beginTransaction();
         fragment_baby fm_baby=new fragment_baby();
         ts.replace(R.id.fm_content,fm_baby);
         ts.commit();
+
         bt_baby.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

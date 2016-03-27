@@ -19,6 +19,8 @@
 
         </activity>
 <activity android:name=".Fragment0"></activity>
+        <activity android:name=".zhuze_getPhonenumber"></activity>
+        <activity android:name=".wangjimima_getPhonenumber"></activity>
 
 
         <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
